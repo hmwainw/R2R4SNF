@@ -1,0 +1,65 @@
+Repository Footprint Minimization Code v.0.1 
+Subpackage in the NWPY Python Package 
+Written by Milos Atz 
+Nuclear Waste Management Group 
+University of California, Berkeley 
+Output file generated: 2024-04-30 23:50:04
+#############################################################################
+Host rock, wasteform, and repository data 
+Limit for effect of adjacent sources: 5% 
+Repository type: clay repository array
+Rock thermal conductivity [W/m/K]: 1.75
+Rock thermal diffusivity [m^2/s]: 6.45e-07
+Waste ID: snf
+Package loading (units): 4.0
+Waste package length [m]: 5.0
+Waste package diameter [m]: 0.9199999999999999
+Surface storage time [y]: 100.0
+Repository ambient temperature [C]: 27.5
+Waste package temperature limit [C]: 100.0
+Rock wall temperature limit [C]: 100.0
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		10.0000		10.0000		7019.4700	104.3588
+1		10.0000		10.0000		7019.4700	104.3588
+2		11.0000		10.0000		7699.4700	101.4773
+3		10.0000		11.0000		7680.1260	101.4773
+4		10.7564		10.7564		8070.0925	100.0565
+5		10.6797		10.5184		7846.6972	100.8951
+6		10.6374		10.7947		8010.3118	100.2695
+7		10.7468		10.7266		8042.0404	100.1597
+8		10.7712		10.7516		8077.5241	100.0302
+9		10.7671		10.7671		8085.5939	100.0002
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 8085.593872928715
+       x: [ 1.077e+01  1.077e+01]
+    nfev: 9
+   maxcv: 0.00015240174133168694
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 2.52%
+#############################################################################
+Optimization run history and convergence: 11x11 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		5.0000		5.0000		2892.0100	59.4500
+1		5.0000		5.0000		2892.0100	59.4500
+2		6.0000		5.0000		3442.0100	56.4669
+3		5.0000		6.0000		3417.8300	56.4669
+4		4.8750		5.0000		2823.2600	59.8761
+5		4.8750		4.8750		2759.0950	60.3107
+6		5.0000		4.9688		2875.5781	59.5553
+7		4.9844		5.0000		2883.4163	59.5025
+8		4.9939		4.9969		2887.0517	59.4807
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 2892.01
+       x: [ 5.000e+00  5.000e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 11x11: 4.78%

@@ -1,0 +1,12 @@
+import os
+
+
+    os.chdir('import os
+
+n=1
+for i in range(n):
+    os.chdir('/home/hmw/Documents/NuclearWaste/UQ_pflotran/sim1')
+    os.system('~/pflotran/src/pflotran/pflotran >log &')')
+    os.system('~/pflotran/src/pflotran/pflotran >log &')
+
+

@@ -1,0 +1,130 @@
+Repository Footprint Minimization Code v.0.1 
+Subpackage in the NWPY Python Package 
+Written by Milos Atz 
+Nuclear Waste Management Group 
+University of California, Berkeley 
+Output file generated: 2024-05-01 05:27:24
+#############################################################################
+Host rock, wasteform, and repository data 
+Limit for effect of adjacent sources: 5% 
+Repository type: clay repository array
+Rock thermal conductivity [W/m/K]: 1.75
+Rock thermal diffusivity [m^2/s]: 6.45e-07
+Waste ID: snf
+Package loading (units): 78.0
+Waste package length [m]: 4.8875
+Waste package diameter [m]: 2.2068
+Surface storage time [y]: 100.0
+Repository ambient temperature [C]: 27.5
+Waste package temperature limit [C]: 100.0
+Rock wall temperature limit [C]: 100.0
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		10.0000		10.0000		7119.4128	150.1472
+1		10.0000		10.0000		7119.4128	150.1472
+2		11.0000		10.0000		7798.5128	144.5491
+3		10.0000		11.0000		7790.3632	144.5491
+4		10.7071		11.7071		8822.2478	137.5687
+5		11.4142		12.4142		9918.1324	131.4720
+6		12.0455		13.1897		11066.2700	126.1552
+7		12.4521		14.1033		12181.7660	121.7709
+8		13.3755		14.4874		13391.8919	117.7882
+9		14.0025		15.2664		14719.9943	114.0213
+10		14.8629		15.7760		16094.8314	110.7075
+11		15.3573		16.6452		17494.6042	107.7811
+12		16.2022		17.1801		18998.9340	105.0797
+13		16.7694		18.0037		20554.1554	102.6481
+14		17.7691		18.0291		21774.8109	100.9740
+15		18.1883		18.1883		22465.1798	100.0956
+16		18.5180		17.8124		22404.5951	100.1728
+17		18.1661		18.2468		22508.2219	100.0419
+18		18.3020		18.1363		22539.4109	100.0046
+19		18.2207		18.2207		22542.7865	99.9997
+20		18.2317		18.2096		22542.8687	99.9997
+21		18.2151		18.2151		22529.5175	100.0161
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 22542.786486685385
+       x: [ 1.822e+01  1.822e+01]
+    nfev: 21
+   maxcv: 0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 0.96%
+#############################################################################
+Optimization run history and convergence: 11x11 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		10.9359		4.8875		6087.4045	77.9635
+1		10.9359		4.8875		6087.4045	77.9635
+2		11.9359		4.8875		6625.0295	75.2048
+3		10.9359		5.8875		7219.6815	73.8820
+4		9.9359		4.8875		5549.7795	81.1702
+5		8.9359		4.8875		5012.1545	84.9264
+6		7.9359		4.8875		4474.5295	89.3674
+7		6.9359		4.8875		3936.9045	94.6782
+8		5.9359		4.8875		3399.2795	101.3488
+9		5.9359		4.3875		3083.1409	105.6243
+10		5.4356		5.4356		3449.3885	100.8144
+11		6.0984		4.8875		3486.6676	100.1675
+12		6.2173		4.8489		3525.0562	99.6297
+13		6.1371		5.0064		3584.9987	98.9745
+14		6.1222		4.8875		3499.4530	99.9980
+15		6.1222		4.8719		3489.2825	100.1208
+16		6.1172		4.8875		3496.7649	100.0336
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 3499.4530033195906
+       x: [ 6.122e+00  4.888e+00]
+    nfev: 16
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 11x11: 7.47%
+#############################################################################
+Optimization run history and convergence: 13x13 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		6.1222		4.8875		4913.6978	107.4666
+1		6.1222		4.8875		4913.6978	107.4666
+2		7.1222		4.8875		5676.1478	100.0785
+3		6.1222		5.8875		5841.7226	99.4439
+4		7.1222		4.6375		5408.1417	102.1157
+5		7.2472		4.8875		5771.4541	99.2807
+6		7.1222		4.9188		5709.6486	99.8407
+7		7.1378		4.8875		5688.0611	99.9777
+8		7.1378		4.8797		5679.6684	100.0374
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 5688.061128139601
+       x: [ 7.138e+00  4.888e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 13x13: 5.95%
+#############################################################################
+Optimization run history and convergence: 15x15 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		7.1378		4.8875		7609.7335	105.9234
+1		7.1378		4.8875		7609.7335	105.9234
+2		8.1378		4.8875		8636.1085	99.1559
+3		7.1378		5.8875		9062.9136	97.9851
+4		8.1378		4.6375		8223.8134	101.1938
+5		8.0128		4.8875		8507.8116	99.9339
+6		8.0128		4.9500		8609.3541	99.4362
+7		7.9972		4.8875		8491.7745	100.0325
+8		7.9972		4.8953		8504.4434	99.9697
+9		8.0024		4.8875		8497.0567	100.0000
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 8497.056655731958
+       x: [ 8.002e+00  4.888e+00]
+    nfev: 9
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 15x15: 4.72%

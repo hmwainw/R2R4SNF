@@ -1,0 +1,12 @@
+0  EVALUATION GROUP 26:
+0  Molten Salt Reactor using Thorium, Uranium-233, and Transuranic Fuel
+0  Item            Value                    Comment
+1  REACTOR         msr
+1  REACTIVITY      critical
+1  SPECTRUM        thermal
+1  MASS            886180.3                 tHM; fuel salt inventory cycles 121.67x/y
+1  DISCHARGEDFUEL  0.0                      tHM; no spent salt discharged
+1  SALTTREATMENT   48.3                     t; fp from salt treatment
+1  COOLINGTIME     5.0                      y; none required for msr, incl for agreement
+1  REPROCESSING    msr
+1  RECOVERED       th,u3,tru

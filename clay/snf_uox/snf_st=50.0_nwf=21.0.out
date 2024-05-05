@@ -1,0 +1,58 @@
+Repository Footprint Minimization Code v.0.1 
+Subpackage in the NWPY Python Package 
+Written by Milos Atz 
+Nuclear Waste Management Group 
+University of California, Berkeley 
+Output file generated: 2024-05-01 01:31:22
+#############################################################################
+Host rock, wasteform, and repository data 
+Limit for effect of adjacent sources: 5% 
+Repository type: clay repository array
+Rock thermal conductivity [W/m/K]: 1.75
+Rock thermal diffusivity [m^2/s]: 6.45e-07
+Waste ID: snf
+Package loading (units): 21.0
+Waste package length [m]: 5.0
+Waste package diameter [m]: 1.7000000000000002
+Surface storage time [y]: 50.0
+Repository ambient temperature [C]: 27.5
+Waste package temperature limit [C]: 100.0
+Rock wall temperature limit [C]: 100.0
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		10.0000		10.0000		7085.7700	138.7456
+1		10.0000		10.0000		7085.7700	138.7456
+2		11.0000		10.0000		7765.7700	133.7073
+3		10.0000		11.0000		7752.6660	133.7073
+4		10.7071		11.7071		8782.3201	127.3989
+5		11.4142		12.4142		9875.9743	122.0233
+6		12.0299		13.2022		11017.6600	117.5273
+7		12.3252		14.1576		12058.3190	114.2617
+8		13.2548		14.5262		13260.3974	111.1384
+9		13.8991		15.2910		14586.0197	108.4651
+10		14.8467		15.6103		15863.3005	106.3935
+11		15.3673		16.4641		17266.9193	104.5869
+12		16.2504		16.9334		18733.4067	103.1247
+13		16.6833		17.8348		20206.6565	101.9955
+14		17.1373		18.0445		20978.5273	101.5383
+15		17.4520		18.4330		21798.9688	101.1332
+16		17.9232		18.6001		22569.9002	100.7811
+17		18.3822		18.7985		23373.3663	100.4444
+18		18.8504		18.9739		24171.7448	100.1870
+19		19.1023		19.1023		24648.2274	100.0449
+20		19.2871		18.6377		24295.4963	100.1531
+21		19.1621		19.1621		24798.5837	100.0013
+22		19.2063		19.1179		24799.0379	100.0014
+23		19.1731		19.1731		24826.4300	99.9934
+24		19.1676		19.1566		24798.6542	100.0014
+ message: Did not converge to a solution satisfying the constraints. See `maxcv` for magnitude of violation.
+ success: False
+  status: 4
+     fun: 24798.583735517936
+       x: [ 1.916e+01  1.916e+01]
+    nfev: 24
+   maxcv: 0.0013499676579726838
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 0.00%

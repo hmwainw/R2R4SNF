@@ -1,0 +1,308 @@
+# Simple repository model
+
+#=========================== flow mode ========================================
+
+SIMULATION
+  SIMULATION_TYPE SUBSURFACE
+  PROCESS_MODELS
+    SUBSURFACE_FLOW flow
+      MODE RICHARDS
+      /
+    SUBSURFACE_TRANSPORT transport
+      MODE GIRT
+    /
+   /
+END
+SUBSURFACE
+
+#=========================== chemistry ========================================
+CHEMISTRY
+  PRIMARY_SPECIES
+    I129
+  /
+  OUTPUT
+    all
+    FREE_ION
+  /
+END
+
+#=========================== discretization ===================================
+GRID
+  TYPE STRUCTURED
+  ORIGIN 0.d0 0.d0 0.d0
+  NXYZ 1000 1 200
+  BOUNDS
+         0.d0 0.d0 0.d0  #xmin, ymin, zmin
+    20000.d0 10.d0 400.d0  #xmax, ymax, zmax
+  /
+END
+
+#=========================== region ===================================
+REGION all  #the whole model domain
+  COORDINATES  #using the .d0 makes it a double float
+    0.d0 0.d0 0.d0  #xmin, ymin, zmin
+    20000.d0 10.d0 400.d0  #xmax, ymax, zmax
+  /
+/
+
+REGION top
+  COORDINATES #this is the left face of the model domain
+        0.d0  0.d0 400.d0
+    20000.d0 10.d0 400.d0
+  /
+  FACE TOP
+/
+
+REGION bottom
+  COORDINATES #this is the left face of the model domain
+         0.d0  0.d0 0.d0
+    200000.d0 10.d0 0.d0
+    /
+    FACE BOTTOM
+/
+
+
+REGION west
+  COORDINATES #this is the left face of the model domain
+    0.d0 0.d0 0.d0
+    0.d0 10.d0 400.d0
+    /
+    FACE WEST
+/
+
+REGION east
+  COORDINATES #this is the left face of the model domain
+    20000.d0 0.d0 0.d0
+    20000.d0 10.d0 400.d0
+    /
+    FACE EAST
+/
+
+REGION acquifer  #the bottom layer of the model domain
+  COORDINATES
+    0.d0      0.d0  0.d0  #xmin, ymin, zmin
+    20000.d0 10.d0 80.d0  #xmax, ymax, zmax
+  /
+END
+
+REGION shale  #the bottom layer of the model domain
+  COORDINATES
+        0.d0  0.d0  80.d0  #xmax, ymax, zmax
+    20000.d0 10.d0 400.d0
+/
+END
+
+REGION repository
+  COORDINATES
+     4990.d0  0.d0 230.d0  #xmax, ymax, zmax
+     5010.d0 10.d0 250.d0
+/
+END
+
+REGION well
+  COORDINATES
+    14990.d0  0.d0 40.d0
+    15010.d0 10.d0 80.d0
+
+/
+END
+
+#=========================== times ============================================
+TIME
+  FINAL_TIME 1.d6 y
+  INITIAL_TIMESTEP_SIZE 1.d-6 y
+  MAXIMUM_TIMESTEP_SIZE 1. y at 1. y
+  MAXIMUM_TIMESTEP_SIZE 5. y at 10. y
+  MAXIMUM_TIMESTEP_SIZE 50. y at 100. y
+  MAXIMUM_TIMESTEP_SIZE 500. y at 10000. y
+  MAXIMUM_TIMESTEP_SIZE 5000. y at 10000. y
+END
+
+#=========================== output options ===================================
+OUTPUT
+#Output snapshot of system at these times (plot vs. distance):
+  OBSERVATION_FILE
+    PERIODIC TIMESTEP 10
+  /
+  SNAPSHOT_FILE
+    FORMAT HDF5
+    PERIODIC TIME 1000. y between 0. y and 100000. y
+    PERIODIC TIME 10000. y between 0. y and 1000000. y
+  /
+END
+
+#=========================== observation points ===============================
+OBSERVATION
+  REGION well
+/
+
+#=========================== fluid properties =================================
+FLUID_PROPERTY
+  PHASE LIQUID
+  DIFFUSION_COEFFICIENT 1.d-9
+END
+
+FLUID_PROPERTY
+  PHASE GAS
+  DIFFUSION_COEFFICIENT 2.1d-5
+END
+
+#=========================== material properties ==============================
+MATERIAL_PROPERTY shale
+  ID 1
+  CHARACTERISTIC_CURVES default
+  POROSITY 0.20
+  TORTUOSITY_FUNCTION_OF_POROSITY 1.4 #Van Loon and Mibus 2015
+  SOIL_COMPRESSIBILITY 1.6d-8 #1/Pa, Konikow and Neuzil 2007
+  SOIL_COMPRESSIBILITY_FUNCTION LEIJNSE
+  SOIL_REFERENCE_PRESSURE 101325.d0
+  ROCK_DENSITY 2700.
+  THERMAL_CONDUCTIVITY_DRY 0.6d0 #educated guess
+  THERMAL_CONDUCTIVITY_WET 1.2d0
+  HEAT_CAPACITY 830.
+  PERMEABILITY
+    PERM_ISO 1.d-19
+  /
+/
+
+MATERIAL_PROPERTY limestone
+  ID 2
+  CHARACTERISTIC_CURVES default
+  POROSITY 0.10
+  !TORTUOSITY 0.10
+  TORTUOSITY_FUNCTION_OF_POROSITY 1.4 #Van Loon and Mibus 2015
+  SOIL_COMPRESSIBILITY 3.2d-9 #1/Pa, what Payton used in 2015 clay case
+  SOIL_COMPRESSIBILITY_FUNCTION LEIJNSE
+  SOIL_REFERENCE_PRESSURE 101325.d0
+  ROCK_DENSITY 2700. #this is good for calcite (dolomite is higher),Robertson USGS report
+  THERMAL_CONDUCTIVITY_DRY 1.0d0 #complete guess
+  THERMAL_CONDUCTIVITY_WET 2.6d0 #Forster and Merriam 1997, Niobrara limestone
+  HEAT_CAPACITY 830.
+  PERMEABILITY
+    PERM_ISO 1.d-14
+  /
+/
+
+#=========================== saturation functions =============================
+CHARACTERISTIC_CURVES default
+SATURATION_FUNCTION VAN_GENUCHTEN
+LIQUID_RESIDUAL_SATURATION 0.1d0
+M 0.8d0
+ALPHA 1.d-4
+/
+PERMEABILITY_FUNCTION MUALEM_VG_LIQ
+LIQUID_RESIDUAL_SATURATION 0.1d0
+M 0.8d0
+/
+/
+
+#=========================== flow conditions ==================================
+FLOW_CONDITION initial
+  TYPE
+    LIQUID_PRESSURE HYDROSTATIC
+  /
+  DATUM 0. 5. 0.
+  GRADIENT
+    LIQUID_PRESSURE -12.0, 0.0, -10000.0
+  /
+  LIQUID_PRESSURE 4.726d6
+END
+
+
+FLOW_CONDITION injection
+  TYPE
+    RATE SCALED_MASS_RATE VOLUME
+  /
+  RATE 1.d-6 kg/year
+END
+
+
+#==================== transport conditions and constraints =============================
+TRANSPORT_CONDITION bottom 
+  TYPE zero_gradient
+  CONSTRAINT_LIST
+    0.d0 initial
+  /
+END
+TRANSPORT_CONDITION initial
+  TYPE dirichlet_zero_gradient
+  CONSTRAINT_LIST
+    0.d0 initial
+  /
+END
+TRANSPORT_CONDITION repository
+  TYPE DIRICHLET
+  TIME_UNITS y
+  CONSTRAINT_LIST
+  0.d0 initial
+  1000.d0 release
+  10000.d0 initial
+/
+END
+
+CONSTRAINT initial
+  CONCENTRATIONS    
+    I129   1.d-20   T
+  /
+END
+
+CONSTRAINT release
+  CONCENTRATIONS
+    I129   1.d+3   T
+  /
+END
+
+#======================= boundary condition couplers ===================================
+BOUNDARY_CONDITION top
+  FLOW_CONDITION initial #sat_initial
+  TRANSPORT_CONDITION initial
+  REGION top
+END
+
+BOUNDARY_CONDITION bottom
+  FLOW_CONDITION initial #sat_initial
+  TRANSPORT_CONDITION initial
+  REGION bottom
+END
+
+BOUNDARY_CONDITION west
+  FLOW_CONDITION initial
+  TRANSPORT_CONDITION initial
+  REGION west
+END
+
+BOUNDARY_CONDITION east
+  FLOW_CONDITION initial
+  TRANSPORT_CONDITION initial
+  REGION east
+END
+
+#=========================== initial condition couplers ==================================
+INITIAL_CONDITION all
+  FLOW_CONDITION initial
+  TRANSPORT_CONDITION initial
+  REGION all #all
+END
+
+#=========================== source_sink couplers ========================================
+SOURCE_SINK
+  FLOW_CONDITION injection
+  TRANSPORT_CONDITION repository
+  REGION repository
+END
+
+#=========================== strata ======================================================
+STRATA
+  REGION shale
+  MATERIAL shale
+END
+STRATA
+  REGION acquifer
+  MATERIAL limestone
+END
+STRATA
+  REGION repository
+  MATERIAL shale
+END
+END_SUBSURFACE
+

@@ -1,0 +1,56 @@
+Repository Footprint Minimization Code v.0.1 
+Subpackage in the NWPY Python Package 
+Written by Milos Atz 
+Nuclear Waste Management Group 
+University of California, Berkeley 
+Output file generated: 2019-07-09 17:47:50
+#############################################################################
+Host rock, wasteform, and repository data 
+Limit for effect of adjacent sources: 5.0% 
+Repository type: granite repository array
+Rock thermal conductivity [W/m/K]: 2.5
+Rock thermal diffusivity [m^2/s]: 1.13e-06
+Waste ID: snf
+Waste form: snf
+Package loading (units): 4
+Waste package length [m]: 5.0
+Waste package diameter [m]: 0.92
+Surface storage time [y]: 80.0
+Repository ambient temperature [C]: 27.5
+Waste package temperature limit [C]: 100.0
+Rock wall temperature limit [C]: 200.0
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		10.0000		10.0000		6937.7000	131.1288
+1		10.0000		10.0000		6937.7000	131.1288
+2		11.0000		10.0000		7617.7000	127.1497
+3		10.0000		11.0000		7590.6600	127.1497
+4		10.7071		11.7071		8610.4599	122.1417
+5		11.4142		12.4142		9694.2598	117.8391
+6		12.0352		13.1980		10826.3766	114.1588
+7		12.3845		14.1350		11890.2309	111.2594
+8		13.3005		14.5362		13102.1952	108.5406
+9		13.9306		15.3127		14415.9623	106.0467
+10		14.8199		15.7701		15762.7815	103.9559
+11		15.2925		16.6514		17132.6236	102.2297
+12		16.2925		16.6592		18246.5450	101.0316
+13		16.8967		16.8967		19174.8626	100.1367
+14		17.5018		16.1006		18951.3437	100.3680
+15		16.9424		16.7804		19098.4901	100.2095
+16		17.1247		16.7942		19316.8375	100.0113
+17		16.9640		16.9640		19324.2179	100.0002
+18		16.9950		16.9603		19355.1472	99.9727
+19		16.9603		16.9329		19286.0260	100.0353
+20		16.9689		16.9634		19329.1675	99.9958
+21		16.9634		16.9590		19318.1062	100.0058
+     fun: 19324.217874786274
+   maxcv: 0.00023159426169172548
+ message: 'Did not converge to a solution satisfying the constraints. See `maxcv` for magnitude of violation.'
+    nfev: 21
+  status: 4
+ success: False
+       x: array([ 16.96398089,  16.96398089])
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 0.10%

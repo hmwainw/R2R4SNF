@@ -1,0 +1,334 @@
+#############################################################################
+Optimization run history and convergence: 11x11 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		4.8875		4.8875		2779.0804	77.7941
+1		4.8875		4.8875		2779.0804	77.7941
+2		5.8875		4.8875		3316.7054	72.6015
+3		4.8875		5.8875		3295.9984	72.6015
+4		4.7625		4.8875		2711.8773	78.5412
+5		4.7625		4.7625		2648.8250	79.3038
+6		4.8875		4.8563		2762.9267	77.9786
+7		4.8719		4.8875		2770.6800	77.8862
+8		4.8814		4.8844		2774.2247	77.8480
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 2779.0803975000003
+       x: [ 4.888e+00  4.888e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 11x11: 4.62%
+#############################################################################
+Optimization run history and convergence: 11x11 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		4.8875		4.8875		2779.0804	78.7252
+1		4.8875		4.8875		2779.0804	78.7252
+2		5.8875		4.8875		3316.7054	73.4360
+3		4.8875		5.8875		3295.9984	73.4360
+4		4.7625		4.8875		2711.8773	79.4862
+5		4.7625		4.7625		2648.8250	80.2631
+6		4.8875		4.8563		2762.9267	78.9131
+7		4.8719		4.8875		2770.6800	78.8190
+8		4.8814		4.8844		2774.2247	78.7801
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 2779.0803975000003
+       x: [ 4.888e+00  4.888e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 11x11: 4.68%
+#############################################################################
+Optimization run history and convergence: 13x13 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		4.9600		4.9600		4014.9995	94.9151
+1		4.9600		4.9600		4014.9995	94.9151
+2		5.9600		4.9600		4787.8935	87.6578
+3		4.9600		5.9600		4763.0451	87.6578
+4		4.8350		4.9600		3918.3878	95.9599
+5		4.8350		4.8350		3827.1321	97.0264
+6		4.8875		4.8875		3905.4468	96.1263
+7		4.8985		4.8765		3905.7038	96.1264
+8		4.8765		4.8765		3888.8910	96.3141
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 3905.446805000001
+       x: [ 4.888e+00  4.888e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 13x13: 4.31%
+#############################################################################
+Optimization run history and convergence: 11x11 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		4.8875		4.8875		2779.0804	77.7941
+1		4.8875		4.8875		2779.0804	77.7941
+2		5.8875		4.8875		3316.7054	72.6015
+3		4.8875		5.8875		3295.9984	72.6015
+4		4.7625		4.8875		2711.8773	78.5412
+5		4.7625		4.7625		2648.8250	79.3038
+6		4.8875		4.8563		2762.9267	77.9786
+7		4.8719		4.8875		2770.6800	77.8862
+8		4.8814		4.8844		2774.2247	77.8480
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 2779.0803975000003
+       x: [ 4.888e+00  4.888e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 11x11: 4.62%
+#############################################################################
+Optimization run history and convergence: 13x13 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		4.9600		4.9600		4014.9995	94.9151
+1		4.9600		4.9600		4014.9995	94.9151
+2		5.9600		4.9600		4787.8935	87.6578
+3		4.9600		5.9600		4763.0451	87.6578
+4		4.8350		4.9600		3918.3878	95.9599
+5		4.8350		4.8350		3827.1321	97.0264
+6		4.8875		4.8875		3905.4468	96.1263
+7		4.8985		4.8765		3905.7038	96.1264
+8		4.8765		4.8765		3888.8910	96.3141
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 3905.446805000001
+       x: [ 4.888e+00  4.888e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 13x13: 4.31%
+#############################################################################
+Optimization run history and convergence: 11x11 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		4.8875		4.8875		2779.0804	78.7252
+1		4.8875		4.8875		2779.0804	78.7252
+2		5.8875		4.8875		3316.7054	73.4360
+3		4.8875		5.8875		3295.9984	73.4360
+4		4.7625		4.8875		2711.8773	79.4862
+5		4.7625		4.7625		2648.8250	80.2631
+6		4.8875		4.8563		2762.9267	78.9131
+7		4.8719		4.8875		2770.6800	78.8190
+8		4.8814		4.8844		2774.2247	78.7801
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 2779.0803975000003
+       x: [ 4.888e+00  4.888e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 11x11: 4.68%
+#############################################################################
+Optimization run history and convergence: 11x11 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		4.8875		4.8875		2779.0804	77.7941
+1		4.8875		4.8875		2779.0804	77.7941
+2		5.8875		4.8875		3316.7054	72.6015
+3		4.8875		5.8875		3295.9984	72.6015
+4		4.7625		4.8875		2711.8773	78.5412
+5		4.7625		4.7625		2648.8250	79.3038
+6		4.8875		4.8563		2762.9267	77.9786
+7		4.8719		4.8875		2770.6800	77.8862
+8		4.8814		4.8844		2774.2247	77.8480
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 2779.0803975000003
+       x: [ 4.888e+00  4.888e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 11x11: 4.62%
+#############################################################################
+Optimization run history and convergence: 13x13 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		4.9600		4.9600		4014.9995	94.9151
+1		4.9600		4.9600		4014.9995	94.9151
+2		5.9600		4.9600		4787.8935	87.6578
+3		4.9600		5.9600		4763.0451	87.6578
+4		4.8350		4.9600		3918.3878	95.9599
+5		4.8350		4.8350		3827.1321	97.0264
+6		4.8875		4.8875		3905.4468	96.1263
+7		4.8985		4.8765		3905.7038	96.1264
+8		4.8765		4.8765		3888.8910	96.3141
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 3905.446805000001
+       x: [ 4.888e+00  4.888e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 13x13: 4.31%
+#############################################################################
+Optimization run history and convergence: 11x11 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		4.8875		4.8875		2779.0804	78.7252
+1		4.8875		4.8875		2779.0804	78.7252
+2		5.8875		4.8875		3316.7054	73.4360
+3		4.8875		5.8875		3295.9984	73.4360
+4		4.7625		4.8875		2711.8773	79.4862
+5		4.7625		4.7625		2648.8250	80.2631
+6		4.8875		4.8563		2762.9267	78.9131
+7		4.8719		4.8875		2770.6800	78.8190
+8		4.8814		4.8844		2774.2247	78.7801
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 2779.0803975000003
+       x: [ 4.888e+00  4.888e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 11x11: 4.68%
+#############################################################################
+Optimization run history and convergence: 11x11 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		4.8875		4.8875		2779.0804	77.7941
+1		4.8875		4.8875		2779.0804	77.7941
+2		5.8875		4.8875		3316.7054	72.6015
+3		4.8875		5.8875		3295.9984	72.6015
+4		4.7625		4.8875		2711.8773	78.5412
+5		4.7625		4.7625		2648.8250	79.3038
+6		4.8875		4.8563		2762.9267	77.9786
+7		4.8719		4.8875		2770.6800	77.8862
+8		4.8814		4.8844		2774.2247	77.8480
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 2779.0803975000003
+       x: [ 4.888e+00  4.888e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 11x11: 4.62%
+#############################################################################
+Optimization run history and convergence: 13x13 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		4.9600		4.9600		4014.9995	94.9151
+1		4.9600		4.9600		4014.9995	94.9151
+2		5.9600		4.9600		4787.8935	87.6578
+3		4.9600		5.9600		4763.0451	87.6578
+4		4.8350		4.9600		3918.3878	95.9599
+5		4.8350		4.8350		3827.1321	97.0264
+6		4.8875		4.8875		3905.4468	96.1263
+7		4.8985		4.8765		3905.7038	96.1264
+8		4.8765		4.8765		3888.8910	96.3141
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 3905.446805000001
+       x: [ 4.888e+00  4.888e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 13x13: 4.31%
+#############################################################################
+Optimization run history and convergence: 11x11 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		4.8875		4.8875		2779.0804	78.7252
+1		4.8875		4.8875		2779.0804	78.7252
+2		5.8875		4.8875		3316.7054	73.4360
+3		4.8875		5.8875		3295.9984	73.4360
+4		4.7625		4.8875		2711.8773	79.4862
+5		4.7625		4.7625		2648.8250	80.2631
+6		4.8875		4.8563		2762.9267	78.9131
+7		4.8719		4.8875		2770.6800	78.8190
+8		4.8814		4.8844		2774.2247	78.7801
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 2779.0803975000003
+       x: [ 4.888e+00  4.888e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 11x11: 4.68%
+#############################################################################
+Optimization run history and convergence: 11x11 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		4.8875		4.8875		2779.0804	77.7941
+1		4.8875		4.8875		2779.0804	77.7941
+2		5.8875		4.8875		3316.7054	72.6015
+3		4.8875		5.8875		3295.9984	72.6015
+4		4.7625		4.8875		2711.8773	78.5412
+5		4.7625		4.7625		2648.8250	79.3038
+6		4.8875		4.8563		2762.9267	77.9786
+7		4.8719		4.8875		2770.6800	77.8862
+8		4.8814		4.8844		2774.2247	77.8480
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 2779.0803975000003
+       x: [ 4.888e+00  4.888e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 11x11: 4.62%
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		10.6215		10.6215		7888.6381	94.8203
+1		10.6215		10.6215		7888.6381	94.8203
+2		11.6215		10.6215		8607.5132	92.4370
+3		10.6215		11.6215		8590.9476	92.4370
+4		9.9144		9.9144		6915.7088	98.8119
+5		10.2408		8.9692		6494.7787	100.9048
+6		9.7039		9.7039		6638.4932	100.1453
+7		9.7923		9.6155		6639.4574	100.1473
+8		9.7481		9.7481		6696.2357	99.8592
+9		9.7702		9.7260		6696.5705	99.8594
+10		9.7264		9.7264		6667.7868	99.9996
+11		9.7319		9.7208		6667.8764	99.9996
+12		9.7228		9.7228		6663.1680	100.0225
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 6667.786806844355
+       x: [ 9.726e+00  9.726e+00]
+    nfev: 12
+   maxcv: 0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 1.96%
+#############################################################################
+Optimization run history and convergence: 11x11 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		4.8875		4.8875		2779.0804	78.7252
+1		4.8875		4.8875		2779.0804	78.7252
+2		5.8875		4.8875		3316.7054	73.4360
+3		4.8875		5.8875		3295.9984	73.4360
+4		4.7625		4.8875		2711.8773	79.4862
+5		4.7625		4.7625		2648.8250	80.2631
+6		4.8875		4.8563		2762.9267	78.9131
+7		4.8719		4.8875		2770.6800	78.8190
+8		4.8814		4.8844		2774.2247	78.7801
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 2779.0803975000003
+       x: [ 4.888e+00  4.888e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 11x11: 4.68%

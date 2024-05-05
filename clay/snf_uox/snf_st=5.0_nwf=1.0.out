@@ -1,0 +1,220 @@
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		5.0000		5.0000		1897.7400	56.6406
+1		5.0000		5.0000		1897.7400	56.6406
+2		6.0000		5.0000		2257.7400	54.1554
+3		5.0000		6.0000		2235.1160	54.1554
+4		4.8750		5.0000		1852.7400	57.0028
+5		4.8750		4.8750		1811.5680	57.3725
+6		5.0000		4.9688		1887.1970	56.7299
+7		4.9844		5.0000		1892.1150	56.6851
+8		4.9939		4.9969		1894.5153	56.6666
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 1897.7399999999998
+       x: [ 5.000e+00  5.000e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 3.34%
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		5.0000		5.0000		1899.5400	61.0583
+1		5.0000		5.0000		1899.5400	61.0583
+2		6.0000		5.0000		2259.5400	58.3090
+3		5.0000		6.0000		2237.2360	58.3090
+4		4.8750		5.0000		1854.5400	61.4607
+5		4.8750		4.8750		1813.3280	61.8712
+6		5.0000		4.9688		1888.9870	61.1577
+7		4.9844		5.0000		1893.9150	61.1079
+8		4.9939		4.9969		1896.3143	61.0873
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 1899.5400000000002
+       x: [ 5.000e+00  5.000e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 4.80%
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		5.0000		5.0000		1897.7400	56.6406
+1		5.0000		5.0000		1897.7400	56.6406
+2		6.0000		5.0000		2257.7400	54.1554
+3		5.0000		6.0000		2235.1160	54.1554
+4		4.8750		5.0000		1852.7400	57.0028
+5		4.8750		4.8750		1811.5680	57.3725
+6		5.0000		4.9688		1887.1970	56.7299
+7		4.9844		5.0000		1892.1150	56.6851
+8		4.9939		4.9969		1894.5153	56.6666
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 1897.7399999999998
+       x: [ 5.000e+00  5.000e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 3.34%
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		5.0000		5.0000		1899.5400	61.0583
+1		5.0000		5.0000		1899.5400	61.0583
+2		6.0000		5.0000		2259.5400	58.3090
+3		5.0000		6.0000		2237.2360	58.3090
+4		4.8750		5.0000		1854.5400	61.4607
+5		4.8750		4.8750		1813.3280	61.8712
+6		5.0000		4.9688		1888.9870	61.1577
+7		4.9844		5.0000		1893.9150	61.1079
+8		4.9939		4.9969		1896.3143	61.0873
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 1899.5400000000002
+       x: [ 5.000e+00  5.000e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 4.80%
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		5.0000		5.0000		1897.7400	56.6406
+1		5.0000		5.0000		1897.7400	56.6406
+2		6.0000		5.0000		2257.7400	54.1554
+3		5.0000		6.0000		2235.1160	54.1554
+4		4.8750		5.0000		1852.7400	57.0028
+5		4.8750		4.8750		1811.5680	57.3725
+6		5.0000		4.9688		1887.1970	56.7299
+7		4.9844		5.0000		1892.1150	56.6851
+8		4.9939		4.9969		1894.5153	56.6666
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 1897.7399999999998
+       x: [ 5.000e+00  5.000e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 3.34%
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		5.0000		5.0000		1897.7400	56.6406
+1		5.0000		5.0000		1897.7400	56.6406
+2		6.0000		5.0000		2257.7400	54.1554
+3		5.0000		6.0000		2235.1160	54.1554
+4		4.8750		5.0000		1852.7400	57.0028
+5		4.8750		4.8750		1811.5680	57.3725
+6		5.0000		4.9688		1887.1970	56.7299
+7		4.9844		5.0000		1892.1150	56.6851
+8		4.9939		4.9969		1894.5153	56.6666
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 1897.7399999999998
+       x: [ 5.000e+00  5.000e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 3.34%
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		5.0000		5.0000		1899.5400	61.0583
+1		5.0000		5.0000		1899.5400	61.0583
+2		6.0000		5.0000		2259.5400	58.3090
+3		5.0000		6.0000		2237.2360	58.3090
+4		4.8750		5.0000		1854.5400	61.4607
+5		4.8750		4.8750		1813.3280	61.8712
+6		5.0000		4.9688		1888.9870	61.1577
+7		4.9844		5.0000		1893.9150	61.1079
+8		4.9939		4.9969		1896.3143	61.0873
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 1899.5400000000002
+       x: [ 5.000e+00  5.000e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 4.80%
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		5.0000		5.0000		1899.5400	61.0583
+1		5.0000		5.0000		1899.5400	61.0583
+2		6.0000		5.0000		2259.5400	58.3090
+3		5.0000		6.0000		2237.2360	58.3090
+4		4.8750		5.0000		1854.5400	61.4607
+5		4.8750		4.8750		1813.3280	61.8712
+6		5.0000		4.9688		1888.9870	61.1577
+7		4.9844		5.0000		1893.9150	61.1079
+8		4.9939		4.9969		1896.3143	61.0873
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 1899.5400000000002
+       x: [ 5.000e+00  5.000e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 4.80%
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		5.0000		5.0000		1897.7400	56.6406
+1		5.0000		5.0000		1897.7400	56.6406
+2		6.0000		5.0000		2257.7400	54.1554
+3		5.0000		6.0000		2235.1160	54.1554
+4		4.8750		5.0000		1852.7400	57.0028
+5		4.8750		4.8750		1811.5680	57.3725
+6		5.0000		4.9688		1887.1970	56.7299
+7		4.9844		5.0000		1892.1150	56.6851
+8		4.9939		4.9969		1894.5153	56.6666
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 1897.7399999999998
+       x: [ 5.000e+00  5.000e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 3.34%
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		5.0000		5.0000		1899.5400	61.0583
+1		5.0000		5.0000		1899.5400	61.0583
+2		6.0000		5.0000		2259.5400	58.3090
+3		5.0000		6.0000		2237.2360	58.3090
+4		4.8750		5.0000		1854.5400	61.4607
+5		4.8750		4.8750		1813.3280	61.8712
+6		5.0000		4.9688		1888.9870	61.1577
+7		4.9844		5.0000		1893.9150	61.1079
+8		4.9939		4.9969		1896.3143	61.0873
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 1899.5400000000002
+       x: [ 5.000e+00  5.000e+00]
+    nfev: 8
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 4.80%

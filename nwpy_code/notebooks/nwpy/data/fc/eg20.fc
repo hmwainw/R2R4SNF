@@ -1,0 +1,10 @@
+0  EVALUATION GROUP 20:
+0  Heavy Water Reactor using Natural Uranium, Recovered Uranium, and Transuranic Fuel
+0  Item            Value            Comment
+1  REACTOR         hwr
+1  REACTIVITY      critical
+1  SPECTRUM        thermal
+1  MASS            14620.2          tHM
+1  COOLINGTIME     0.0              y; isotopics given at 5y
+1  REPROCESSING    urex
+1  RECOVERED       u,tru

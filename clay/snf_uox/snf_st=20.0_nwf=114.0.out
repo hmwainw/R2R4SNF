@@ -1,0 +1,52 @@
+Repository Footprint Minimization Code v.0.1 
+Subpackage in the NWPY Python Package 
+Written by Milos Atz 
+Nuclear Waste Management Group 
+University of California, Berkeley 
+Output file generated: 2024-05-01 07:42:31
+#############################################################################
+Host rock, wasteform, and repository data 
+Limit for effect of adjacent sources: 5% 
+Repository type: clay repository array
+Rock thermal conductivity [W/m/K]: 1.75
+Rock thermal diffusivity [m^2/s]: 6.45e-07
+Waste ID: snf
+Package loading (units): 114.0
+Waste package length [m]: 4.8875
+Waste package diameter [m]: 2.2068
+Surface storage time [y]: 20.0
+Repository ambient temperature [C]: 27.5
+Waste package temperature limit [C]: 100.0
+Rock wall temperature limit [C]: 100.0
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		10.0000		10.0000		7119.4128	131.3477
+1		10.0000		10.0000		7119.4128	131.3477
+2		11.0000		10.0000		7798.5128	126.3218
+3		10.0000		11.0000		7790.3632	126.3218
+4		10.7071		11.7071		8822.2478	120.0278
+5		11.4142		12.4142		9918.1324	114.6625
+6		12.0302		13.2020		11062.5187	110.1172
+7		12.3500		14.1495		12123.4523	106.6251
+8		13.2625		14.5585		13345.3342	103.3293
+9		14.2440		14.7502		14478.8364	100.8838
+10		14.1481		15.2409		14844.1575	100.1776
+11		15.1037		14.2395		14814.6966	100.2459
+12		14.7417		14.7417		14959.9180	99.9629
+13		14.7396		14.6167		14836.0574	100.1958
+14		14.9075		14.5546		14938.4882	100.0061
+15		14.7315		14.7315		14940.0026	100.0000
+16		14.7004		14.7293		14907.2687	100.0608
+17		14.7326		14.7159		14925.8969	100.0264
+18		14.7265		14.7312		14934.7646	100.0097
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 14940.002621340267
+       x: [ 1.473e+01  1.473e+01]
+    nfev: 18
+   maxcv: 1.7763568394002505e-15
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 0.14%

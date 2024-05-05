@@ -1,0 +1,9 @@
+0  EVALUATION GROUP 03:
+0  Heavy Water Reactor using Natural Uranium Fuel
+0  Item            Value            Comment
+1  REACTOR         hwr
+1  REACTIVITY      critical
+1  SPECTRUM        thermal
+1  MASS            14757.1          tHM
+1  COOLINGTIME     0.0              y; 5y accounted for in isotopics
+1  REPROCESSING    none

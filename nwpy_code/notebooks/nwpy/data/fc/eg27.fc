@@ -1,0 +1,10 @@
+0  EVALUATION GROUP 27:
+0  Continuous recycle of 233U/Th with new enriched-U/Th fuel in fast critical reactors
+0  Item            Value            Comment
+1  REACTOR         sfr
+1  REACTIVITY      critical
+1  SPECTRUM        fast
+1  MASS            3626.7           tHM 
+1  COOLINGTIME     5.0              y
+1  REPROCESSING    echem
+1  RECOVERED       th,u             u,u3

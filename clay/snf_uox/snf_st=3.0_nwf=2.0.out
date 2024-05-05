@@ -1,0 +1,50 @@
+Repository Footprint Minimization Code v.0.1 
+Subpackage in the NWPY Python Package 
+Written by Milos Atz 
+Nuclear Waste Management Group 
+University of California, Berkeley 
+Output file generated: 2024-04-30 23:57:04
+#############################################################################
+Host rock, wasteform, and repository data 
+Limit for effect of adjacent sources: 5% 
+Repository type: clay repository array
+Rock thermal conductivity [W/m/K]: 1.75
+Rock thermal diffusivity [m^2/s]: 6.45e-07
+Waste ID: snf
+Package loading (units): 2.0
+Waste package length [m]: 5.0
+Waste package diameter [m]: 0.9199999999999999
+Surface storage time [y]: 3.0
+Repository ambient temperature [C]: 27.5
+Waste package temperature limit [C]: 100.0
+Rock wall temperature limit [C]: 100.0
+#############################################################################
+Optimization run history and convergence: 9x9 array
+iter		drift spacing	wp spacing	footprint	wp peak temp
+0		10.0000		10.0000		7019.4700	58.8109
+1		10.0000		10.0000		7019.4700	58.8109
+2		11.0000		10.0000		7699.4700	58.7542
+3		10.0000		11.0000		7680.1260	58.7542
+4		9.2929		9.2929		6103.4831	59.0082
+5		8.6001		8.5718		5251.9208	59.6719
+6		8.0573		7.7319		4482.0025	62.6251
+7		7.2065		7.2065		3773.7499	65.8235
+8		6.6313		6.3884		3121.3915	69.9061
+9		5.8133		5.8133		2528.3356	75.1976
+10		5.2314		5.0000		1999.4805	82.1886
+11		4.8793		5.3550		1990.9183	82.1985
+12		5.0000		5.0000		1916.1900	83.5462
+13		5.0000		4.9375		1894.8990	83.9275
+14		4.9688		5.0000		1904.9400	83.7360
+15		4.9813		4.9906		1906.2576	83.7169
+16		5.0022		4.9955		1915.4709	83.5597
+ message: Optimization terminated successfully.
+ success: True
+  status: 1
+     fun: 1916.19
+       x: [ 5.000e+00  5.000e+00]
+    nfev: 16
+   maxcv: -0.0
+#############################################################################
+Constraints and sensitivity
+Relative impact of increasing array size to 9x9: 4.70%
