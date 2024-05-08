@@ -20,7 +20,7 @@ This repo includes:
 1. Post-processing of OpenMC to compute the SNF metrics (mass, volume, radiotoxicity, activity and decay heat): [1_Openmc_post.ipynb](https://github.com/hmwainw/R2R4SNF/blob/master/1_Openmc_post.ipynb)
 2. Repository footprint analysis with NWPY: [2_Repository_footprint.ipynb](https://github.com/hmwainw/R2R4SNF/blob/master/2_Repository_footprint.ipynb)
 3. Post-processing of NWPY to compute the minimum footprint given the storage time and loading: [3_Repository_footprint_post.ipynb](https://github.com/hmwainw/R2R4SNF/blob/master/3_Repository_footprint_post.ipynb)
-4. Repository PA with PFLOTRAN: [4_I129 release_transport.ipynb](https://github.com/hmwainw/R2R4SNF/blob/master/4_I129%20release_transport.ipynb). Note that the simulations are fun in [PFLOTRAN/](https://github.com/hmwainw/R2R4SNF/tree/master/PFLOTRAN). run_pf.py can be used to run multiple simulations in parallel.
+4. Repository PA with PFLOTRAN: [4_I129 release_transport.ipynb](https://github.com/hmwainw/R2R4SNF/blob/master/4_I129%20release_transport.ipynb). Note that the simulations are run in [PFLOTRAN/](https://github.com/hmwainw/R2R4SNF/tree/master/PFLOTRAN). run_pf.py can be used to run multiple simulations in parallel.
 5. Comparison of the overall statistics: [5_Overall_comparison.ipynb](https://github.com/hmwainw/R2R4SNF/blob/master/5_Overall_comparison.ipynb)
 
 Note that these codes are not optimized for the speed/efficiency and kept simple for educational purposes. 
