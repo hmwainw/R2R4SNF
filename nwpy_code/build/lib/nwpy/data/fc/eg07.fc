@@ -1,9 +1,0 @@
-0  EVALUATION GROUP 07:
-0  Accelerator Driven System using Natural Uranium Fuel
-0  Item            Value            Comment
-1  REACTOR         ads
-1  REACTIVITY      subcritical
-1  SPECTRUM        fast
-1  MASS            2389.0           tHM
-1  COOLINGTIME     5.0              y
-1  REPROCESSING    none

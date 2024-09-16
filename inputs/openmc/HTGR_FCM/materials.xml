@@ -1,0 +1,102 @@
+<materials>
+  <cross_sections>/Users/krishnasunder/Desktop/workspace/R2R4SNF/inputs/openmc/nuclear_data/endfb71_hdf5/cross_sections.xml</cross_sections>
+  <material depletable="true" id="1" name="kernel" temperature="900" volume="679.8543742278844">
+    <density units="g/cm3" value="14.3" />
+    <nuclide ao="0.1975" name="U235" />
+    <nuclide ao="0.8025" name="U238" />
+    <nuclide ao="0.99" name="N15" />
+    <nuclide ao="0.01" name="N14" />
+  </material>
+  <material id="2" name="buffer" temperature="900">
+    <density units="g/cm3" value="1.0" />
+    <nuclide ao="1.0" name="C0" />
+    <sab name="c_Graphite" />
+  </material>
+  <material id="3" name="iPyC" temperature="900">
+    <density units="g/cm3" value="1.9" />
+    <nuclide ao="1.0" name="C0" />
+    <sab name="c_Graphite" />
+  </material>
+  <material id="4" name="SiC" temperature="900">
+    <density units="g/cm3" value="3.2" />
+    <nuclide ao="0.5" name="C0" />
+    <nuclide ao="0.4611484" name="Si28" />
+    <nuclide ao="0.0234158" name="Si29" />
+    <nuclide ao="0.0154358" name="Si30" />
+  </material>
+  <material id="5" name="oPyC" temperature="900">
+    <density units="g/cm3" value="1.9" />
+    <nuclide ao="1.0" name="C0" />
+    <sab name="c_Graphite" />
+  </material>
+  <material id="6" name="compact_matrix" temperature="900">
+    <density units="g/cm3" value="3.2" />
+    <nuclide ao="0.5" name="C0" />
+    <nuclide ao="0.4611484" name="Si28" />
+    <nuclide ao="0.0234158" name="Si29" />
+    <nuclide ao="0.0154358" name="Si30" />
+  </material>
+  <material id="8" name="block_graphite" temperature="600">
+    <density units="g/cm3" value="1.85" />
+    <nuclide name="C0" wo="0.99999954" />
+    <nuclide name="B10" wo="1.5e-07" />
+    <nuclide name="Si28" wo="1e-07" />
+    <nuclide name="Ca40" wo="8e-08" />
+    <nuclide name="Fe56" wo="6e-08" />
+    <nuclide name="Al27" wo="1.2e-08" />
+    <nuclide name="K39" wo="4e-08" />
+    <nuclide name="V51" wo="1.8e-08" />
+    <sab name="c_Graphite" />
+  </material>
+  <material id="14" name="coolant" temperature="600">
+    <density units="g/cm3" value="0.0024055809477988937" />
+    <nuclide ao="1.0" name="He4" />
+  </material>
+  <material id="15" name="reflector_graphite" temperature="600">
+    <density units="g/cm3" value="1.85" />
+    <nuclide name="C0" wo="0.99999954" />
+    <nuclide name="B10" wo="1.5e-07" />
+    <nuclide name="Si28" wo="1e-07" />
+    <nuclide name="Ca40" wo="8e-08" />
+    <nuclide name="Fe56" wo="6e-08" />
+    <nuclide name="Al27" wo="1.2e-08" />
+    <nuclide name="K39" wo="4e-08" />
+    <nuclide name="V51" wo="1.8e-08" />
+    <sab name="c_Graphite" />
+  </material>
+  <material id="16" name="permanent_graphite" temperature="600">
+    <density units="g/cm3" value="1.85" />
+    <nuclide name="C0" wo="0.99999954" />
+    <nuclide name="B10" wo="1.5e-07" />
+    <nuclide name="Si28" wo="1e-07" />
+    <nuclide name="Ca40" wo="8e-08" />
+    <nuclide name="Fe56" wo="6e-08" />
+    <nuclide name="Al27" wo="1.2e-08" />
+    <nuclide name="K39" wo="4e-08" />
+    <nuclide name="V51" wo="1.8e-08" />
+    <sab name="c_Graphite" />
+  </material>
+  <material id="17" name="barrel" temperature="600">
+    <density units="g/cm3" value="7.94" />
+    <nuclide ao="22.124992499999998" name="Ni58" />
+    <nuclide ao="8.5225075" name="Ni60" />
+    <nuclide ao="0.3704675" name="Ni61" />
+    <nuclide ao="1.1812125" name="Ni62" />
+    <nuclide ao="0.30082000000000003" name="Ni64" />
+    <nuclide ao="0.9124500000000001" name="Cr50" />
+    <nuclide ao="17.59569" name="Cr52" />
+    <nuclide ao="1.99521" name="Cr53" />
+    <nuclide ao="0.49665000000000004" name="Cr54" />
+    <nuclide ao="2.3087750000000002" name="Fe54" />
+    <nuclide ao="36.24283" name="Fe56" />
+    <nuclide ao="0.837005" name="Fe57" />
+    <nuclide ao="0.11139" name="Fe58" />
+    <nuclide ao="0.3" name="Al27" />
+    <nuclide ao="0.02475" name="Ti46" />
+    <nuclide ao="0.022319999999999996" name="Ti47" />
+    <nuclide ao="0.22116" name="Ti48" />
+    <nuclide ao="0.01623" name="Ti49" />
+    <nuclide ao="0.015539999999999998" name="Ti50" />
+    <nuclide ao="0.08" name="C0" />
+  </material>
+</materials>
