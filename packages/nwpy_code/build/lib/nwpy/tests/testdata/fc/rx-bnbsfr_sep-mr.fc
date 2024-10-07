@@ -1,0 +1,12 @@
+0  EVALUATION GROUP 09 (FAKE DATA FOR TESTS): 
+0  Limited recycle of U/TRU with new natural-U fuel to very high burnup in fast critical reactors
+0  Item            Value                    Comment
+1  REACTOR         sfr
+1  OPERATION       breed&burn
+1  REACTIVITY      critical
+1  SPECTRUM        fast
+1  BATCHES         3,5,7,-8                 (-): discharged
+1  MASSES          187.2,174.5,153.0,-131.6 tHM; (-): discharged;
+1  COOLINGTIME     5.0                      y
+1  REPROCESSING    meltrefining
+1  RECOVERED       u,tru,fp

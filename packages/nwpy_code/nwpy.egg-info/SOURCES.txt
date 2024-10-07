@@ -15,6 +15,7 @@ nwpy/stream.py
 nwpy.egg-info/PKG-INFO
 nwpy.egg-info/SOURCES.txt
 nwpy.egg-info/dependency_links.txt
+nwpy.egg-info/requires.txt
 nwpy.egg-info/top_level.txt
 nwpy/criticality/__init__.py
 nwpy/criticality/criticalmass.py
