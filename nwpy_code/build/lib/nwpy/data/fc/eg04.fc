@@ -1,9 +1,0 @@
-0  EVALUATION GROUP 04: 
-0  Sodium-Cooled Fast Reactor (Breed and Burn) using Natural Uranium Fuel with no Recycling
-0  Item            Value            Comment
-1  REACTOR         sfr
-1  REACTIVITY      critical
-1  SPECTRUM        fast
-1  MASS            329.4            tHM
-1  COOLINGTIME     5.0              y
-1  REPROCESSING    none

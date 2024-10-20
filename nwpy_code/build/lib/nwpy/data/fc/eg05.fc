@@ -1,8 +1,0 @@
-0  EVALUATION GROUP 05: 
-0  High-Temperature Gas-Cooled Reactor using Low Enriched Uranium and Thorium Fuel 
-1  REACTOR          htgr
-1  FUEL             u,th-oxide
-1  BURNUP           100.0
-1  MASS             753.0
-1  COOLINGTIME      5.0
-1  REPROCESSING     none
