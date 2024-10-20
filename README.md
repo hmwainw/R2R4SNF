@@ -16,7 +16,7 @@ It consists of includes (a) reactor physics models and post-discharge decay calc
 
 This repo includes:
 
-0. OpenMC [input files](https://github.com/hmwainw/R2R4SNF/tree/master/OpenMC_input)
+0. OpenMC [input files](https://github.com/hmwainw/R2R4SNF/tree/master/inputs)
 1. Post-processing of OpenMC to compute the SNF metrics (mass, volume, radiotoxicity, activity and decay heat): [1_Openmc_post.ipynb](https://github.com/hmwainw/R2R4SNF/blob/master/1_Openmc_post_processing.ipynb)
 2. Repository footprint analysis with NWPY: [2_Repository_footprint.ipynb](https://github.com/hmwainw/R2R4SNF/blob/master/2_Repository_footprint_simulation.ipynb)
 3. Repository PA with PFLOTRAN: [4_I129 release_transport.ipynb](https://github.com/hmwainw/R2R4SNF/blob/master/3_I129_release_transport.ipynb). Note that the simulations are run in [PFLOTRAN/](https://github.com/hmwainw/R2R4SNF/tree/master/Results/I129_release_transport). run_pf.py can be used to run multiple simulations in parallel.
